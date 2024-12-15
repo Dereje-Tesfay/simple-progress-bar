@@ -5,7 +5,10 @@
 }
 body{
    background-image: url(./vecteezy_save-earth-day-poster-environment-day-nature-green-glossy_22448292.jpg);
-   background-size: 100%;
+   background-size: 100vw 100vh;
+   object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +17,14 @@ body{
 }
 .DERE{
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 1rem;
+    text-shadow: 5px 1px #e90808;
+
 }
 .heading{
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 60, 255);
     font-size: 5rem;
 }
 .container .skill--box{
